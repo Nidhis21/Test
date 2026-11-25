@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f2efff;
+    text-align: center;
+    padding: 30px;
+}
+
+.quiz {
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+h1 {
+    color: #5941a9;
+}
+
+.question {
+    background-color: #f7f5ff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.question p {
+    font-weight: bold;
+    color: #5941a9;
+}
+
+input {
+    margin: 8px;
+}
+
+button {
+    background-color: #7055b8;
+    color: white;
+    padding: 10px 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #513b91;
+}
+
+#result {
+    color: #5941a9;
+}

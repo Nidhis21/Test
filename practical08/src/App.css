@@ -1,0 +1,118 @@
+/* Main Page */
+body {
+  font-family: 'Gill Sans', Calibri, sans-serif;
+  background-color: #fce8e8;
+  margin: 0;
+  padding: 25px;
+  color: #443044;
+}
+
+/* Main Container */
+#root {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.app {
+  background-color: #fffafa;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px #e8caca;
+}
+
+/* Headings */
+h1 {
+  color: #743b55;
+}
+
+h2 {
+  color: #91546e;
+}
+
+h3 {
+  color: #743b55;
+}
+
+/* Form Box */
+.form-box {
+  background-color: #fceeee;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input Fields */
+input {
+  width: 85%;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #e2c3d0;
+  border-radius: 7px;
+  background-color: white;
+  font-family: inherit;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  background-color: #91546e;
+  color: white;
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #743b55;
+}
+
+/* Student List */
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 20px;
+}
+
+/* Student Cards */
+.student-card {
+  background-color: #fff4f5;
+  border: 2px solid #b66b89;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.student-card p {
+  margin: 10px 0;
+}
+
+/* Delete Button */
+.student-card button {
+  background-color: #c45b68;
+}
+
+.student-card button:hover {
+  background-color: #a83e50;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+  .student-list {
+    grid-template-columns: 1fr;
+  }
+}

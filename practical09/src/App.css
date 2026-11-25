@@ -1,0 +1,100 @@
+/* Main Page */
+body {
+  font-family: 'Gill Sans', Calibri, sans-serif;
+  background-color: #fce8e8;
+  margin: 0;
+  padding: 20px;
+  color: #443044;
+}
+
+/* Main Container */
+#root {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.App {
+  background-color: #fffafa;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px #e8caca;
+}
+
+/* Headings */
+h1 {
+  color: #743b55;
+}
+
+h2 {
+  color: #91546e;
+}
+
+/* Form */
+form {
+  background-color: #fceeee;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Inputs and Dropdown */
+input,
+select {
+  width: 80%;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #e2c3d0;
+  border-radius: 7px;
+  background-color: white;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+/* Buttons */
+button {
+  background-color: #91546e;
+  color: white;
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: #743b55;
+}
+
+/* Expense Grid */
+.expense-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 20px;
+}
+
+/* Individual Expense Card */
+.expense-list {
+  background-color: #fff4f5;
+  border: 5px solid #b66b89;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+.expense-list p {
+  margin: 10px 0;
+}
+
+/* Delete Button */
+.expense-list button {
+  background-color: #c45b68;
+}
+
+.expense-list button:hover {
+  background-color: #a83e50;
+}

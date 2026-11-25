@@ -1,0 +1,72 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f2efff;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #5941a9;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #5941a9;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+.gender {
+    margin-top: 10px;
+}
+
+.gender input {
+    width: auto;
+    margin-left: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #7055b8;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #513b91;
+}

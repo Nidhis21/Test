@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz">
+        <h1>Online Quiz</h1>
+
+        <form id="quizForm">
+
+            <div class="question">
+                <p>1. Which language is used to structure web pages?</p>
+                <input type="radio" name="q1" value="HTML"> HTML
+                <input type="radio" name="q1" value="Python"> Python
+                <input type="radio" name="q1" value="Java"> Java
+                <input type="radio" name="q1" value="C"> C
+            </div>
+
+            <div class="question">
+                <p>2. Which language is used for styling web pages?</p>
+                <input type="radio" name="q2" value="HTML"> HTML
+                <input type="radio" name="q2" value="CSS"> CSS
+                <input type="radio" name="q2" value="Java"> Java
+                <input type="radio" name="q2" value="Python"> Python
+            </div>
+
+            <div class="question">
+                <p>3. Which language makes web pages interactive?</p>
+                <input type="radio" name="q3" value="CSS"> CSS
+                <input type="radio" name="q3" value="HTML"> HTML
+                <input type="radio" name="q3" value="JavaScript"> JavaScript
+                <input type="radio" name="q3" value="SQL"> SQL
+            </div>
+
+            <div class="question">
+                <p>4. Which tag is used to create a hyperlink?</p>
+                <input type="radio" name="q4" value="p"> &lt;p&gt;
+                <input type="radio" name="q4" value="a"> &lt;a&gt;
+                <input type="radio" name="q4" value="h1"> &lt;h1&gt;
+                <input type="radio" name="q4" value="div"> &lt;div&gt;
+            </div>
+
+            <div class="question">
+                <p>5. Which method selects an element by its ID?</p>
+                <input type="radio" name="q5" value="getElementById"> getElementById()
+                <input type="radio" name="q5" value="queryAll"> queryAll()
+                <input type="radio" name="q5" value="getClass"> getClass()
+                <input type="radio" name="q5" value="innerHTML"> innerHTML
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <button type="reset" onclick="clearResult()">Reset</button>
+
+        </form>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
