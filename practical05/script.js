@@ -15,6 +15,22 @@ function addTask() {
         li.classList.toggle("completed");
     };
 
+    let btn_completed = document.createElement("button");
+    btn_completed.textContent = "Complete"
+
+    btn_completed.onclick = function (e) {
+        e.stopPropagation()
+        li.classList.toggle("completed")
+
+
+        if (li.classList.contains("completed")) {
+            btn_completed.textContent = "Undo";
+        } else {
+            btn_completed.textContent = "Complete";
+        }
+
+    };
+
     // Create Delete button
     let btn = document.createElement("button");
     btn.textContent = "Delete";
@@ -23,7 +39,7 @@ function addTask() {
         e.stopPropagation();
         li.remove();
     };
-
+    li.appendChild(btn_completed)
     li.appendChild(btn);
 
     document.getElementById("taskList").appendChild(li);
